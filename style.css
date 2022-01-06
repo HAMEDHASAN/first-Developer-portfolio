@@ -46,9 +46,7 @@ body p{
     text-align: justify;
     font-size: 30px;
 }
-.fa {
-    
-    
+.fa {    
     font-size: 5 0px;
     width: 20px;
     text-align: center;
@@ -76,8 +74,24 @@ body p{
 
   .experience-item{
       width:210%;
-      
+      border-radius: 10px;      
       padding:5%;
       box-shadow: 10px 10px 40px gray;
       font-size: 30px;
+      
+      
   }
+  .experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position: left;
+ }
+
+ #border-gradient{
+      border-left: 10px solid;
+      border-image: linear-gradient(orange,tomato);
+      border-image-slice: 1;
+
+}
+
+ 
