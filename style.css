@@ -8,7 +8,7 @@ h1{
 .name{
     color:orange
 }
-section{
+.flexible-container{
     display:flex;
 }
 .width1{
@@ -22,6 +22,21 @@ section{
     width:80%;
     padding-left: 50%;
     padding-top: 10%;
+}
+.width3{
+    width: 40%;
+}
+.width3 img{
+    width:80%;
+    padding-top: 30%;
+    padding-left:15%;
+}
+.width4{
+    width:40%;
+    padding-top:10%;
+    padding-left: 6%;
+    margin-bottom:10%;
+    margin-right:5%;
 }
 body p{
     text-align: justify;
@@ -41,4 +56,22 @@ body p{
   .top-banner{
       background-image: url(images/top-banner.png);
       background-repeat: no-repeat;
+  }
+  .link-button{
+      text-decoration: none;
+      background-image: linear-gradient(orange,tomato);
+      padding:10px 20px;
+      color:white;
+  }
+  .dream-big{
+      background-image: url(images/dream-bg.png);
+      background-repeat:no-repeat;
+      background-position: right;
+  }
+
+  .experience-item{
+      width:210%;
+      
+      padding:5%;
+      box-shadow: 10px 10px 40px gray;
   }
